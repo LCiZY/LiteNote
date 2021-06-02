@@ -1,0 +1,23 @@
+QMenu {
+    background-color: rgba(38, 40, 42, 196);
+    margin: 2px; /* some spacing around the menu */
+    border-radius: 5px;
+}
+
+QMenu::item {
+    color: white;
+    background-color: transparent;
+    padding: 12px 32px 12px 32px;
+    margin: 0px 0px 0px 0px;
+    border: 0px solid transparent; /* reserve space for selection border */
+}
+
+QMenu::item:selected {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+QMenu::icon { /* appearance of a 'checked' icon */
+    padding-left: 6px;
+}
+
+

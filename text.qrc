@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>menu_style.qss</file>
+        <file>main_style.qss</file>
+        <file>tooltip_style.qss</file>
+        <file>scrollbar_style.qss</file>
+    </qresource>
+    <qresource prefix="/text">
+        <file>help.txt</file>
+    </qresource>
+</RCC>

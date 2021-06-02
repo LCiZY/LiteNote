@@ -1,0 +1,23 @@
+QScrollBar:vertical {
+    margin: 5px 0px 5px 0px;
+    background-color: transparent;
+    border: 0px;
+    width: 10px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background-color: qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 rgba(105, 78, 233, 0.9),stop:0.15 rgba(100,66,255,0.9),stop:0.5 rgba(0,108,255,0.9),stop:0.85 rgba(12,180,206, 0.9),stop:1 rgba(36, 188, 211, 0.9));
+    width: 10px;
+    border-radius: 4px;
+}
+/*
+QScrollBar::handle:vertical:hover {
+    background-color: qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 rgba(105, 78, 233, 0.9),stop:0.15 rgba(100,66,255,0.9),stop:0.5 rgba(0,108,255,0.9),stop:0.85 rgba(12,180,206, 0.9),stop:1 rgba(36, 188, 211, 0.9));
+    width: 10px;
+    border-radius: 4px;
+}
+*/
+QScrollBar::add-page:vertical {background-color: transparent; }
+QScrollBar::sub-page:vertical {background-color: transparent; }
+QScrollBar::sub-line:vertical {subcontrol-origin: margin; border: 0px solid rgb(240,241,239); height:0px}
+QScrollBar::add-line:vertical {subcontrol-origin: margin; border: 0px solid rgb(240,241,239); height:0px}

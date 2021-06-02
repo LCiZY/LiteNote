@@ -1,0 +1,18 @@
+TransparentPlainTextEdit{
+    border-radius: 5px;
+    background:transparent;
+    border-width:0;
+    border-style:outset;
+    color:white
+}
+
+QScrollBar::handle:vertical {background-color: #bbbbbb; width: 30px;  border-radius: 7px; }
+QScrollBar::handle:vertical:hover {background-color: #9B9B9B; width: 30px;  border-radius: 7px; }
+QScrollBar::add-page:vertical {background-color: rgb(240,241,239); }
+QScrollBar::sub-page:vertical {background-color: rgb(240,241,239); }
+QScrollBar::up-arrow:vertical { border: 0px; width:30px; height: 30px; border-image: url(:/Icons/up_Arrow.png);}
+QScrollBar::up-arrow:vertical:pressed { border: 0px; width:30px; height: 30px; border-image: url(:/Icons/up_Arrow_down.png);}
+QScrollBar::down-arrow:vertical { border: 0px; width:30px; height: 30px; border-image: url(:/Icons/down_Arrow.png); }
+QScrollBar::down-arrow:vertical:pressed { border: 0px; width:30px; height: 30px; border-image: url(:/Icons/down_Arrow_down.png); }
+QScrollBar::sub-line:vertical {subcontrol-origin: margin; border: 1px solid rgb(240,241,239); height:30px}
+QScrollBar::add-line:vertical {subcontrol-origin: margin; border: 1px solid rgb(240,241,239); height:30px}

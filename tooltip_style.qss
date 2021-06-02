@@ -1,0 +1,10 @@
+QLabel{
+    Color: white;
+    /*
+    background-color: rgba(195, 195, 195, 195);
+    */
+    background-color: qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 rgba(105, 78, 233, 0.9),stop:0.15 rgba(100,66,255,0.9),stop:0.5 rgba(0,108,255,0.9),stop:0.85 rgba(12,180,206, 0.9),stop:1 rgba(36, 188, 211, 0.9));
+
+    border-radius: 5px;
+
+}
