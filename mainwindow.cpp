@@ -49,6 +49,7 @@ void MainWindow::setBgColor(QColor c){
 
 void MainWindow::stayOnTop(){
     this->setWindowFlags(this->windowFlags() | Qt::WindowStaysOnTopHint);
+    this->show();
     if (this->isMinimized())
     {
         this->showNormal();
@@ -57,8 +58,7 @@ void MainWindow::stayOnTop(){
     ::SetWindowPos(HWND(this->winId()), HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
     //set window do not stay on top
     //::SetWindowPos(HWND(this->winId()), HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
-    this->show();
-    this->activateWindow();
+    //this->activateWindow();
 }
 
 void MainWindow::paintEvent(QPaintEvent *)
