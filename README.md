@@ -1,2 +1,2 @@
 # LiteNote
-A lite notepad can always stay on the top.
+Lightweight text editor that can always be placed on top of all windows。
