@@ -22,7 +22,6 @@ TransparentPlainTextEdit::TransparentPlainTextEdit(QWidget *parent): QPlainTextE
     QAction *ac_on_top = new QAction("Stay On Top",menu);
 
 
-
     menu->addAction(op_text_color);
     menu->addAction(op_bg_color);
     menu->addAction(ac_help);
